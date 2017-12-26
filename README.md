@@ -9,10 +9,10 @@ Compile command:
  
  Link Command:
     
-        as -arch x86_64 -o hello_as_64.o hello_as_64.asm
+        ld -o hello_as_64 hello_as_64.o
  
  Execute Command: 
     
-        as -arch x86_64 -o hello_as_64.o hello_as_64.asm
+        ./hello_as_64
  
  This should work =)
